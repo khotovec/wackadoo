@@ -10,8 +10,7 @@ function pageChoice() {
         lastVal = ln.value;
     if (firstVal.length < 1 && lastVal.length < 1) {
         alert("Please Enter your First and Last Name to enter the Contest!");
-        return false;
-        
+        return false;  
     } else if (firstVal.length > 1 && lastVal.length < 1) {
         alert("Please Enter your Last Name to enter the Contest!");
         return false;
